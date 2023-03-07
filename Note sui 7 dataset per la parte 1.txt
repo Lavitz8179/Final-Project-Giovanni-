@@ -1,0 +1,17 @@
+1) Non utilizziamo 'Suicide Data From WHO (annex)', perché gli anni sono 2020, 2019, 2016 e le colonne non si riferiscono agli stessi periodi
+2) Non utilizziamo 'Suicide Rates Worldwide (2000-2019)' perché tratta di <<Crude suicide rates>> come 'WHO Crude Suicide Rates', che però ha più righe
+3) Non utilizziamo 'List of countries by suicide rate' perché ha dati inutili (difficili da confrontare) e a livello di regione (la join è impossibile da fare)
+4) Di Global Suicide Data non utilizziamo SDGSUICIDE perché ha salti di 5 anni
+                                          MH_12 perché ha salti di 5 anni e non si capisce a cosa si riferiscano i dati
+                                          suicide_rates_by_country e Male-Female-Ratio-of-Suicide-Rates perché hanno meno righe rispetto a 'WHO Suicide Statistics'
+                                                                                                                                           'WHO Crude Suicide Rates'
+                                                                                                            sia il 'suicide rate' che il 'Male-Female-Ratio-of-Suicide-Rates'
+                                                                                                         si possono indagare meglio con i 3 file di 'Suicide Rates of Countries
+                                                                                                         per Year', che ha anche dati su un periodo continuo e più recente
+                                                                                                         (2000-2019 vs 1950-2005/4)
+
+5) Non utilizziamo 'Suicide Rates of Countries per Year' perché si riferisce allo stesso periodo (2000-2019) di 'WHO Crude Suicide Rates', ma ha molte meno righe
+   rispetto a quest'ultimo (183 vs 17019)
+6) Dataset rimanenti: 1- WHO Suicide Statistics
+                      2- WHO Crude Suicide Rates
+   da utilizzarsi per effettuare un'analisi su 2 periodi differenti, uno più vecchio (1979-2016) ed uno più recente (2000-2019), quindi non c'è nessuna join da fare

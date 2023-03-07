@@ -1,0 +1,38 @@
+DATASET SPESA SANITARIA
+Contiene un file "WHO_MHExp_and_Deaths"
+https://www.kaggle.com/datasets/fernandoretamales/health-expenditure-and-suicide-rates
+
+DATASET FELICITA'
+Contiene 4 files "2015/16/17/18/19"
+LINK - https://www.kaggle.com/datasets/durgeshrao9993/world-happiness-dataset
+
+DATASET USO DI SOSTANZE
+Contiene 2 files "crude suicide rates" "share-with-alcohol-and-substance-use-disorders 1990-2016"
+LINK - https://www.kaggle.com/datasets/thedevastator/global-suicide-mental-health-substance-use-disor
+
+DATASET PROBLEMI MENTALI
+Contiene 3 files "Mental health Depression disorder Data" "share-deaths-suicide" "share-with-mental-and-substance-disorders"
+LINK - 
+1° file Global Trends in Mental Health Disorder
+https://www.kaggle.com/datasets/thedevastator/uncover-global-trends-in-mental-health-disorder?select=Mental+health+Depression+disorder+Data.csv
+2° e 3° file
+Mental Health & Suicide Death
+https://www.kaggle.com/datasets/venkatkumar001/mental-health-suicide-death?select=share-with-mental-and-substance-disorders.csv
+
+DATASET DISOCCUPAZIONE
+Contiene molti files
+LINK - https://www.kaggle.com/datasets/michaelacorley/unemployment-and-mental-illness-survey
+
+DATASET CAUSE DI MORTE TRA ADOLESCENTI
+Contiene "GHSH_Pooled_Data1" "Originally collectedGHSH_Pooled_Data"
+LINK - https://www.kaggle.com/datasets/kashishnaqvi/suicidal-behaviours-among-adolescents
+
+DATASET DEPRESSIONE E SUICIDI
+Contiene "depression_anxiety_data"
+LINK - https://www.kaggle.com/datasets/shahzadahmad0402/depression-and-anxiety-data
+
+DATASET CAUSE DI SUICIDI NEGLI UOMINI
+Contiene diversi files
+LINK - https://www.kaggle.com/datasets/chimavogu/why-are-suicide-rates-so-high-for-men-worldwide
+
+8 dataset
