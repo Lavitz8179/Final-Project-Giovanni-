@@ -36,3 +36,30 @@ Contiene diversi files
 LINK - https://www.kaggle.com/datasets/chimavogu/why-are-suicide-rates-so-high-for-men-worldwide
 
 8 dataset
+
+
+LIFE EXPECTANCY
+Suicide rate and life expectancy  (c'è anche il gdp per capita)                                        
+https://www.kaggle.com/datasets/marshuu/suicide-rate-and-life-expectancy?select=Life+expectancy.csv
+
+World Health Statistics 2020|Complete|Geo-Analysis   ###### (suicidi e life expectancy)
+https://www.kaggle.com/datasets/utkarshxy/who-worldhealth-statistics-2020-complete
+
+
+GDP
+Suicide Rates Overview (1985 to 2021)                                             
+https://www.kaggle.com/datasets/omkargowda/suicide-rates-overview-1985-to-2021
+
+dataset per la parte 2 perché comprende il gdp per capita e per anno, la generazione, i suicidi e i suicidi su 100.000 unità di popolazione
+
+
+MORTALITY
+World Mortality Rates (2000-2017)     [parte 1 o parte 2?]  
+https://www.kaggle.com/datasets/navinmundhra/world-mortality?select=Adult+mortality.csv
+
+PIU' VARIABILI
+Countries of the world 2022
+https://www.kaggle.com/datasets/moekhaledx/countries-of-the-world
+ORIENTAMENTO SESSUALE
+The Demographic /r/ForeverAlone Dataset
+https://www.kaggle.com/datasets/kingburrito666/the-demographic-rforeveralone-dataset

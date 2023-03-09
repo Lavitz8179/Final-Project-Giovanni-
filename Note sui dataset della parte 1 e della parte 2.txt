@@ -1,0 +1,22 @@
+1) Bisogna eliminare dei bin dalla colonna 'Age group' di "WHO Crude Suicide Rates" per riallinearlo con quelli di "WHO Suicide Statics":
+   All Ages, 15-19 (da utilizzare però per il confronto con "Suicide death rate by age"), 15-29, 30-49
+2) "WHO Suicide Statistics" in alcuni casi [35-54 e 55-74] ha un solo bin per indicare un range di età che "WHO Crude Suicide Rates" indica in due [(35-44, 45-54) e (55-64, 65-74)]
+3) Gli anni di 3 delle 4 tabelle di "Why are suicide rates so high for men worldwide?" coincidono (1990-2017), mentre quelli di 'marriage-rate-per-1000-inhabitants'
+   coprono un arco di tempo più lungo (1920-2018) che comprende il periodo delle altre 3
+4) Sembrerebbe che tra 'male-vs-female-suicide' e 'male-vs-female-suicide-with-depression-prevalence' si possa fare una join sulla colonna 'Year', ma inspiegabilmente
+   i dati della colonna 'Average of Male suicide rate (age-standardized)' differiscono tra loro da una tabella all'altra!
+5) Usare i dataset europei come dati più recenti, al pari di "WHO Crude Suicide Rates" 
+
+6) Il dataset "Suicidal Behaviours Among Adolescents" non comprende tutti i paesi e non ci sono nemmeno quelli europei, perciò non si può usare
+7) Il dataset "Unemployment and mental illness survey" non contiene dati sulla disoccupazione, perciò non si può usare
+8) Il dataset "Health Expenditure and Suicide Rates [2000-2019]" non ha tutti i paesi, tuttavia può essere utilizzato per un confronto tra le morti per anno, il numero
+di suicidi, la loro percentuale ('Suicide_p100') e, volendo, il numero di persone depresse (Dep_Num_2015); basta dire che i dati relativi a suicidi e depressione
+sono di difficile reperibilità perché in alcuni paesi i comportamenti suicidi sono punibili dalla legge e perché molti dei casi di depressione non vengono registrati.
+9) Il dataset "Depression and anxiety data" potrebbe essere utilizzato da Silvia per rilevare una correlazione tra suicidi e depressione
+10) Il dataset "Suicide Rates Overview (1985 to 2021)" ha le prime 5 colonne in comune con "WHO Suicide Statistics" ('sex' ed 'age' coincidono, ma non 'year' che comprende un periodo diverso,
+seppure simile): valutare se fare una join dopo aver eliminato alcune righe (gli anni) per uguagliare la shape
+11) Non utilizziamo il dataset "World Happiness Dataset" perché il campo 'Happiness Score' è contenuto nel dataset "Suicide rate and life expectancy", che lo pone
+già in correlazione con il tasso di suicidi 
+12) Nel dataset "Suicide rate and life expectancy" è stata eseguita una full outer join e un fillna(0) per poter recuperare i dati di 4 paesi (Brunei, Cabo Verde, 
+Kyrgyzstan e Macedonia, il cui nome era scritto diverso nelle 2 tabelle) e comunque tenere traccia di altri 10 paesi per i quali non c'è una corrispondenza biunivoca
+tra le 2 tabelle (Korea, Dem. Rep., Korea, Rep., Kosovo, Nauru, Qatar, Singapore, United Arab Emirates, Spain, Switzerland e Thailand)
